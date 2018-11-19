@@ -10,7 +10,7 @@ export default function Toolbar(props) {
         <div className="toolbar-toggle-btn">
           <ToggleButton click={props.drawerClickHandler} />
         </div>
-        <div className="toolbar-logo"><Link to="/">AT Web Developer</Link></div>
+        <div className="toolbar-logo"><Link to="/" className="toolbar-logo">AT Web Development</Link></div>
         <div className="space"></div>
         <div className="toolbar-nav-links">
           <ul>
