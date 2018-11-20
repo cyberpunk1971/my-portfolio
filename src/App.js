@@ -51,7 +51,7 @@ export class App extends Component {
         <Sidedrawer show={this.state.sideDrawerOpen} />
         {backdrop}
         <main style={{ marginTop: "64px" }}>
-          content
+
         </main>
         <Route exact path="/" component={Home} />
         <Route exact path="/About" component={About} />
