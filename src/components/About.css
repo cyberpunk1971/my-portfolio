@@ -1,9 +1,10 @@
 .about {
   text-align: center;
   margin: 100px 100px;
+  font-size: 2rem;
 }
 
 .about-link {
   color: rgb(139, 60, 60);
-  font-size: 1rem
+  font-size: 1.5rem
 }

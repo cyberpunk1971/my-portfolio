@@ -11,13 +11,13 @@ export default function Toolbar(props) {
         <div className="toolbar-toggle-btn">
           <ToggleButton click={props.drawerClickHandler} />
         </div>
-        <div className="toolbar-logo"><Link to="/" className="toolbar-logo">AT Web Development</Link></div>
+        <div className="toolbar-logo"><Link to="/" className="toolbar-logo">The Digital Desert</Link></div>
         <div className="space"></div>
         <div className="toolbar-nav-links">
           <ul>
 
             <li><a href="mailto:adt71@cox.net">
-              <FontAwesomeIcon icon="envelope" className="icon" /></a></li>
+              <FontAwesomeIcon icon="envelope" className="abt-link" /></a></li>
             <li><Link to="/About" className="abt-link">About</Link></li>
             <li><Link to="/" className="abt-link">Home</Link></li>
 
