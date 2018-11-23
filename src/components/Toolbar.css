@@ -11,6 +11,14 @@
   margin-left: 0.5rem;
 }
 
+.icon {
+  color: white;
+}
+
+.abt-link {
+  color: white;
+}
+
 .toolbar-nav {
   display: flex;
   height: 100%;
@@ -36,7 +44,7 @@
 
 .toolbar-nav-links a:hover,
 .toolbar-nav-links a:active {
-  color: white;
+  color: black;
 }
 
 .space {

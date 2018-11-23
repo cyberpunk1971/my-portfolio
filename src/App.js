@@ -53,9 +53,9 @@ export class App extends Component {
         <main style={{ marginTop: "64px" }}>
 
         </main>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Portfolio} />
         <Route exact path="/About" component={About} />
-        <Route exact path="/Portfolio" component={Portfolio} />
+
         <Footer />
       </div>
 

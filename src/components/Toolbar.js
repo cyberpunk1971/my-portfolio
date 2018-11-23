@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ToggleButton from '../components/ToggleButton';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Toolbar.css';
 
 export default function Toolbar(props) {
@@ -14,8 +15,12 @@ export default function Toolbar(props) {
         <div className="space"></div>
         <div className="toolbar-nav-links">
           <ul>
-            <li><Link to="/About">About Me</Link></li>
-            <li><Link to="/Portfolio">Portfolio</Link></li>
+
+            <li><a href="mailto:adt71@cox.net">
+              <FontAwesomeIcon icon="envelope" className="icon" /></a></li>
+            <li><Link to="/About" className="abt-link">About</Link></li>
+            <li><Link to="/" className="abt-link">Home</Link></li>
+
           </ul>
         </div>
       </nav>

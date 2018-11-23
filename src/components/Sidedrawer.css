@@ -31,6 +31,10 @@
   margin: 0.5rem 0;
 }
 
+.side-drawer-link {
+  color: black !important;
+}
+
 .side-drawer a:hover,
 .side-drawer a:active {
   color: red;
