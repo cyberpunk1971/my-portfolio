@@ -55,7 +55,7 @@ export class App extends Component {
         </main>
         <Route exact path="/" component={Portfolio} />
         <Route exact path="/About" component={About} />
-
+        <Route exact path="/Home" component={Portfolio} />
         <Footer />
       </div>
 
