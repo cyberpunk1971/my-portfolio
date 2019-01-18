@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, withRouter } from 'react-router-dom';
 import About from '../src/components/About';
 import Backdrop from '../src/components/Backdrop';
-import Home from '../src/components/Home';
 import Portfolio from '../src/components/Portfolio';
 import Sidedrawer from '../src/components/Sidedrawer';
 import Toolbar from '../src/components/Toolbar';
