@@ -24,10 +24,10 @@ export default function Portfolio() {
 
         <div className="container">
           <div className="image">
-            <a target="_blank" rel="noopener noreferrer" href="https://secret-sierra-83238.herokuapp.com/">
+            <a target="_blank" rel="noopener noreferrer" href="https://cyberpunk1971.github.io/rgb-color-game/">
               <img src={process.env.PUBLIC_URL + "./images/image3.png"} alt="shopping list website" /></a>
 
-            <div className="description">A simple shopping list application using Mongo/Mongoose, Express, React, and Node.</div>
+            <div className="description">A simple color guessing game using HTML/CSS/Javascript</div>
           </div>
         </div>
       </div>
