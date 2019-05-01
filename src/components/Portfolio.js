@@ -22,14 +22,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="container">
-          <div className="image">
-            <a target="_blank" rel="noopener noreferrer" href="https://cyberpunk1971.github.io/rgb-color-game/">
-              <img src={process.env.PUBLIC_URL + "./images/image3.png"} alt="shopping list website" /></a>
 
-            <div className="description">A simple color guessing game using HTML/CSS/Javascript</div>
-          </div>
-        </div>
       </div>
     </React.Fragment>
   )
