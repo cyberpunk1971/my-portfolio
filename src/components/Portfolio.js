@@ -22,8 +22,15 @@ export default function Portfolio() {
           </div>
         </div>
 
+        <div className="container">
+          <div className="image">
+            <a target="_blank" rel="noopener noreferrer" href="https://cyberpunk1971.github.io/limpiadores-perea/">
+              <img src={process.env.PUBLIC_URL + "./images/image3.png"} alt="limpiadores perea sitio web" width="600" height="400" /></a>
+             <div className="description">The website for Limpiadores Perea</div>
+          </div>
+        </div>
 
-      </div>
+  </div>
     </React.Fragment>
   )
 }
