@@ -1,0 +1,28 @@
+.Contact_form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    padding: 0 50px;
+  }
+  
+  .Contact_email {
+   height: 30px;
+   margin-bottom: 20px;
+  }
+
+.Contact_msg {
+   height: 80px;
+}
+
+.Button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
