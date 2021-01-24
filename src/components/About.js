@@ -1,12 +1,17 @@
 import React from 'react';
-import './About.css';
+
+import ContactForm from './ContactForm';
+import classes from './About.module.css';
 
 export default function About() {
   return (
-    <div className="about">
-      <main>
-        <p>Hello, my name is Alex and thanks for visiting. The home page has samples of work i've done. I am focused on full stack development using the MERN stack, currently. If you are interested in working together, or even just a chat you can reach me <a href="mailto:adt71@cox.net" className="about-link">HERE</a> .</p>
-      </main>
-    </div>
+    
+      <>
+      <div className={classes.Div}>
+        <p className={classes.Blurb}>Hello, my name is Alex and thanks for visiting. After spending over 10 years in the medical field I decided to jump into web development. On the Home page you can view samples of my work. I am focused on full stack development using the MERN stack, currently.  </p>
+        
+        </div>
+      </>
+    
   )
 }

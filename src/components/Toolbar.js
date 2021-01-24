@@ -16,9 +16,12 @@ export default function Toolbar(props) {
         <div className="toolbar-nav-links">
           <ul>
 
-            <li><a href="mailto:healz@protonmail.com">
-              <FontAwesomeIcon icon="envelope" className="abt-link" /></a></li>
+            <li className="Contact_li" onClick={props.clicked}>
+              <FontAwesomeIcon icon="envelope"  /></li>
             <li><a href="https://github.com/cyberpunk1971" target="_blank">Github</a></li>
+            <li><Link to="/About" className="abt-link">About</Link></li>
+            <li><Link to="/" className="abt-link">Home</Link></li>
+
           </ul>
         </div>
       </nav>
